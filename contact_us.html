@@ -6,31 +6,7 @@
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
 	<link rel="stylesheet" href="css/contact_us.css" type="text/css" />
 	<script src="http://codeorigin.jquery.com/jquery-2.0.3.js"></script>
-	<script>
-		function CheckFunc()
-		{
-			msg = "";
-		if(document.forms[0].name.value == "")
-		{
-			msg = "Please complete all!";
-		}
-		else if(document.forms[0].email.value == "")
-		{
-			msg = "Please complete all!";
-		}
-		else if(document.forms[0].message.value == "")
-		{
-			msg = "Please complete all!";
-		}
-		else
-		{
-		return true;
-		}
-		alert(msg);
-		return false;
-		}
-		console.log("Loded");   
-	</script><!-- 表單驗證 -->
+	<script src="js/contact_us.js"></script>
 </head>
 
 <body>
