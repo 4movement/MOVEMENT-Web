@@ -24,6 +24,6 @@ $(document).ready(function(){
 	$(".content_toggle").load("contact_us.html");
 	$(".fadeout").fadeOut('slow');
   });
-  //Ajax技術
+  //按下導覽列，網站內容切換
 });
 
