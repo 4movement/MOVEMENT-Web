@@ -5,6 +5,32 @@
 	<title>MOVEMENT-Open Source</title>
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
 	<link rel="stylesheet" href="css/contact_us.css" type="text/css" />
+	<script src="http://codeorigin.jquery.com/jquery-2.0.3.js"></script>
+	<script>
+		function CheckFunc()
+		{
+			msg = "";
+		if(document.forms[0].name.value == "")
+		{
+			msg = "Please complete all!";
+		}
+		else if(document.forms[0].email.value == "")
+		{
+			msg = "Please complete all!";
+		}
+		else if(document.forms[0].message.value == "")
+		{
+			msg = "Please complete all!";
+		}
+		else
+		{
+		return true;
+		}
+		alert(msg);
+		return false;
+		}
+		console.log("Loded");   
+	</script><!-- 表單驗證 -->
 </head>
 
 <body>
@@ -12,7 +38,7 @@
 		<header>
 			<h2>Join us! Or you want to say something!</h2>
 		</header>
-			<form action="mailto:skylovely2005@gmail.com" method="post" enctype="text/plain" onsumbit="return contact_text(this)">
+			<form action="mailto:skylovely2005@gmail.com" method="post" enctype="text/plain">
 				<fieldset>
 					<label for="name" class="form_title">Name</label></br>
 					<input name="name" type="text" class="contact_text" placeholder=" Name" style="width:200px;"/></br>
@@ -20,7 +46,7 @@
 					<input name="email" type="email" class="contact_text" placeholder=" Email" style="width:200px;"></br>
 					<label for="message" class="form_title">Message</label></br>
 					<textarea name="message" class="contact_text" placeholder="Leave your message here!" style="width:330px;height:200px"></textarea></br>
-					<input type="submit" value="Mail Us!" />
+					<input type="submit" onclick="return CheckFunc();" value="Mail Us!" />
 				</fieldset>
 				<span>
 					<img src="http://farm4.staticflickr.com/3829/9578838905_bb1e79d89f_o.png" style="float:right;width:300px;margin-right:30px;margin-top:20px"/>
@@ -28,8 +54,6 @@
 			</form>
 	</article>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
