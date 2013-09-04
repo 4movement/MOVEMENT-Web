@@ -74,7 +74,7 @@ ol {
 .body {
 	clear: both; 
 	margin: 0 auto; 
-	width: 800px;
+	width: 900px;
 }
 
 /*
@@ -89,13 +89,13 @@ ol {
 	margin: 0 auto 2em 0;
 	padding: 0;
 	text-align: center;
-	width: 800px;
+	width: 900px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 
-#banner nav ul {list-style: none; margin: 0 auto 0 -25px; width:800px;}
+#banner nav ul {list-style: none; margin: 0 auto 0 -25px; width:900px;}
 #banner nav li {float: left; display: inline; margin: 0 auto;}
 
 #banner nav a:link, #banner nav a:visited {
