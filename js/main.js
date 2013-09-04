@@ -5,8 +5,8 @@ $(document).ready(function(){
 	$(".fadeout").fadeOut('slow');
   }); 
   
-  $(".link_to_do").click(function(){
-	$(".content_toggle").load("to_do_list.html");
+  $(".link_expected").click(function(){
+	$(".content_toggle").load("expected_features.html");
 	$(".fadeout").fadeOut('slow');
   });
   
