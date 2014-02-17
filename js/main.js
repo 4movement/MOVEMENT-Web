@@ -1,10 +1,5 @@
 $(document).ready(function(){
-  
-  $(".link_project").click(function(){
-	$(".content_toggle").load("project_intro.html");
-	$(".fadeout").fadeOut('slow');
-  }); 
-  
+
   $(".link_expected").click(function(){
 	$(".content_toggle").load("expected_features.html");
 	$(".fadeout").fadeOut('slow');

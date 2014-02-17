@@ -7,3 +7,14 @@ fieldset{
 	color:#0098DE;
 	font-size:1.2em;
 }
+
+.contact_form form{
+	float:left;
+}
+
+.contact_form img{
+	float:right;
+	width:300px;
+	margin-right:30px;
+	margin-top:20px;
+}
