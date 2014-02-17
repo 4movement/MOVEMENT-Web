@@ -24,7 +24,6 @@ body {
 	color: #000305;
 	font-size: .85em; /*Base font size: 14px*/
 	font-family: "Century Gothic" , "Arial";
-	text-align: left;
 }
 	
 /* Headings */
@@ -120,44 +119,41 @@ ol {
 	-moz-border-radius-bottomleft: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 }
- 
-/*
-	Body
-*****************/
+
+/* Content & featured wrapper */
+#c_f_wrapper{
+	width: 800px;
+	height: auto;
+	margin : 0px auto;
+	display:block;
+}
+
 /* Content */
 #content {
-	margin-bottom: 2em;
 	overflow: hidden;
-	padding: 20px 20px;
-	width: 500px;
+	width: 450px;
 	float: left;
- 
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 }
 
 #content figure img{
 	width: 400px;
-	margin: 0px auto;
+	margin-left:-10%;
+}
+
+#content figcaption {
+	margin-left:20%;
 }
 
 /* Featured */
 #featured {
-	margin-bottom: 2em;
 	overflow: hidden;
-	padding: 20px;
 	width: 260px;
 	float: right;
- 
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 }
-#featured h2 {color: #00aeff; font-size: 1.714em; margin-bottom: 0.333em;}
-#featured h3 {font-size: 1.429em; margin-bottom: .5em;}
-#featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
-#featured h3 a:hover, #featured h3 a:active {color: #fff;}
+#featured h1 { font-size: 1.714em; margin-bottom: 0.333em;}
+#featured h2 {font-size: 1.429em; margin-bottom: .5em;}
+#featured h2 a:link, #featured h3 a:visited {color: #00aeff; text-decoration: none;}
+#featured h2 a:hover, #featured h3 a:active {color: #fff;}
 
 /*
 	Extras
